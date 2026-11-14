@@ -1,3 +1,4 @@
+# Save as: .github/workflows/stats.yml (in the leorb99/leorb99 repository)
 name: Update README cards
 
 on:
@@ -20,7 +21,7 @@ jobs:
           card: stats
           options: username=leorb99&show_icons=true&hide_border=true&bg_color=0D1117&title_color=FF7A00&icon_color=FF7A00&text_color=C9D1D9
           path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_STATS_TOKEN }}
 
       - name: Generate top languages card
         uses: readme-tools/github-readme-stats-action@v1
@@ -28,7 +29,7 @@ jobs:
           card: top-langs
           options: username=leorb99&layout=compact&hide_border=true&bg_color=0D1117&title_color=FF7A00&text_color=C9D1D9
           path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_STATS_TOKEN }}
 
       - name: Commit cards
         run: |
