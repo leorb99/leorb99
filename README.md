@@ -92,10 +92,11 @@
 
 ## 📊 GitHub stats
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=leorb99&show_icons=true&hide_border=true&bg_color=0D1117&title_color=FF7A00&icon_color=FF7A00&text_color=C9D1D9" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=leorb99&layout=compact&hide_border=true&bg_color=0D1117&title_color=FF7A00&text_color=C9D1D9" />
+<p align="center"> 
+    <img height="165" src="profile/stats.svg" alt="GitHub stats" /> 
+    <img height="165" src="profile/top-langs.svg" alt="Top languages" /> 
 </p>
+
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=leorb99&hide_border=true&background=0D1117&ring=FF7A00&fire=FF7A00&currStreakLabel=FF7A00&sideLabels=C9D1D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B949E" />
